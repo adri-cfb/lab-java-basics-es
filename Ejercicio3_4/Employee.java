@@ -1,12 +1,12 @@
 package Ejercicio3;
 
 public class Employee {
-    int id;
-    String name;
-    String lastName;
-    String department;
-    int workingYears;
-    double salary;
+    private int id;
+    private String name;
+    private String lastName;
+    private String department;
+    private int workingYears;
+    private double salary;
 
     //metodos
     public void trabajarEnLaEmpresa(int workingYears, double salary){
